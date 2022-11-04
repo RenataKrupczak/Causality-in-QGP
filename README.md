@@ -19,6 +19,12 @@ Programs to realize the causality analysis in the quark-gluon plasma (QGP) in th
 # Make the causality analysis:
 - causality.py: Read the result files from MUSIC and apply them to the causality equations. This program can be changed as the final result wanted 
 
+# Example of result:
+<div align="center">
+<img src="https://user-images.githubusercontent.com/117451854/200028241-6284e2a4-8902-4790-b839-511ae7042d88.png" width="700px" />
+</div>
+Plots for a collision Pb-Pb at 5.02 TeV, different instants of the hydrodynamics evolution are showed. Points in red are acausal, in purple are indeterminate and in blue are causal.
+
 # Theoric references:
 - Bayesian analysis used: 
 
