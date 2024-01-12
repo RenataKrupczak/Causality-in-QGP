@@ -7,12 +7,14 @@ Programs to realize the causality analysis in the quark-gluon plasma (QGP) in th
 
   grid_info.cpp: in the source folder of MUSIC. It serves for MUSIC to produce two new files called evolution_Wmunu.dat (containing the components of the shear stress tensor, pressure, speed of sound squared, entropy, energy, temperature, and the two viscosities) and evolution_bulk_pressure.dat (containing the bulk);
 
-  evolve.cpp: in the same folder of MUSIC. It defines the flag 4, which is equivalent to the part wroten in the file grid_info.cpp.
+  evolve.cpp: in the same folder of MUSIC. It defines the flag 4, which is equivalent to the part written in the file grid_info.cpp.
+
+  You will need to define the new functions in the respective .h file
 
 - Compile MUSIC.
 - Make the substitution:
 
-  music_input_mode_2: In the folder that you will run MUSIC, you have a parameters folder. Here, you can control the configurations using flag 4 and you can define the often the data will be saved along the hydrodynamic evolution or other specific configurations.
+  music_input_mode_2: In the folder that you will run MUSIC, you have a parameters folder. Here, you can control the configurations using flag 4 and define how often the data will be saved along the hydrodynamic evolution or other specific configurations.
 
 - The result will be two files: evolution_Wmunu.dat and evolution_bulk_pressure.dat
 
@@ -23,7 +25,7 @@ Programs to realize the causality analysis in the quark-gluon plasma (QGP) in th
 <div align="center">
 <img src="https://user-images.githubusercontent.com/117451854/200028241-6284e2a4-8902-4790-b839-511ae7042d88.png" width="700px" />
 </div>
-Plots for a collision Pb-Pb at 5.02 TeV, different instants of the hydrodynamics evolution are showed. Points in red are acausal, in purple are indeterminate and in blue are causal.
+Plots for a collision Pb-Pb at 5.02 TeV, different instants of the hydrodynamics evolution are shown. Points in red are acausal, purple are indeterminate and blue are causal.
 
 # Theoric references:
 - Bayesian analysis used: 
